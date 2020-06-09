@@ -10,7 +10,9 @@ class DieuHuongURL extends Component {
     render() {
         return (
                 <div>
+                <Route exact path="/lethanhdo.github.io/ReadNews_React/" component={Home}/>
                 <Route exact path="/" component={Home}/>
+                <Route exact path="/ReadNews_React" component={Home}/>
                 <Route exact path="/home" component={Home}/>
                 <Route exact path="/news" component={News}/>
                 <Route exact path="/details/:slug.:id.html" component={Details}/>
